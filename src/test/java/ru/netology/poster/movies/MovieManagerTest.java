@@ -44,7 +44,6 @@ public class MovieManagerTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
-
     @Test
     public void testAddMovieMoreLimit() {
         MovieManager manager = new MovieManager();
